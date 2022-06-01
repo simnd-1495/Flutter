@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_homework/ui/home/home_screen.dart';
 
 import '../../colors.dart';
 
@@ -78,6 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       textAlignVertical: TextAlignVertical.bottom,
                       style: TextStyle(color: Colors.white),
                       keyboardType: TextInputType.emailAddress,
+                      cursorColor: Colors.white,
                       decoration: const InputDecoration(
                         focusedBorder: UnderlineInputBorder(
                           borderSide: BorderSide(color: Colors.white),
@@ -230,7 +232,12 @@ class ButtonCustom extends StatelessWidget {
           color: Colors.white,
         ),
         child: InkWell(
-          onTap: () {},
+          // onTap: () {
+          //   Navigator.push(
+          //     context,
+          //     MaterialPageRoute(builder: (context) => const HomeScreen()),
+          //   );
+          // },
           splashColor: Colors.black12,
           child: Ink(
             padding: EdgeInsets.all(20),

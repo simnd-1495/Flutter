@@ -29,6 +29,7 @@ linter:
     unnecessary_string_interpolations: false
     unnecessary_brace_in_string_interps: false
     unnecessary_const : false
+    dead_code: false
 
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_homework/ui/login/login.dart';
-import 'ui/sign_up/sign_up_screen.dart';
+import 'package:flutter_homework/ui/home/home_screen.dart';
+import 'package:flutter_homework/ui/movie_detail/movie_detail_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +13,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       routes: {
-        signUpScreen: (context) => const SignUpScreen(),
-        loginScreen: (context) => const LoginScreen(),
+        // signUpScreen: (context) => const SignUpScreen(),
+        // loginScreen: (context) => const LoginScreen(),
+        homeScreen: (context) => const HomeScreen(),
+        movieDetailScreen: (context) => const MovieDetailScreen(),
       },
     );
   }
